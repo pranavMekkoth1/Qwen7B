@@ -1,0 +1,773 @@
+{
+  "categories": {
+    "Vegetables and Fruits": {
+      "support": 2146,
+      "tp": 1632,
+      "fp": 1563,
+      "fn": 514,
+      "precision": 0.5107981220657277,
+      "recall": 0.7604846225535881,
+      "f1": 0.6111215128253136
+    },
+    "Cereals and Legumes": {
+      "support": 1257,
+      "tp": 411,
+      "fp": 470,
+      "fn": 846,
+      "precision": 0.46651532349602726,
+      "recall": 0.3269689737470167,
+      "f1": 0.3844714686623012
+    },
+    "Beverages": {
+      "support": 1153,
+      "tp": 752,
+      "fp": 270,
+      "fn": 401,
+      "precision": 0.735812133072407,
+      "recall": 0.6522116218560278,
+      "f1": 0.6914942528735631
+    },
+    "Protein Sources": {
+      "support": 1140,
+      "tp": 531,
+      "fp": 597,
+      "fn": 609,
+      "precision": 0.47074468085106386,
+      "recall": 0.46578947368421053,
+      "f1": 0.4682539682539683
+    },
+    "Dairy and Plant-Based Drinks": {
+      "support": 817,
+      "tp": 240,
+      "fp": 94,
+      "fn": 577,
+      "precision": 0.718562874251497,
+      "recall": 0.2937576499388005,
+      "f1": 0.41702867072111205
+    },
+    "Oils and Fats": {
+      "support": 263,
+      "tp": 0,
+      "fp": 11,
+      "fn": 263,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Traditional Mediterranean Dishes": {
+      "support": 278,
+      "tp": 3,
+      "fp": 26,
+      "fn": 275,
+      "precision": 0.10344827586206896,
+      "recall": 0.01079136690647482,
+      "f1": 0.01954397394136808
+    },
+    "Snacks and Appetizers": {
+      "support": 184,
+      "tp": 51,
+      "fp": 624,
+      "fn": 133,
+      "precision": 0.07555555555555556,
+      "recall": 0.27717391304347827,
+      "f1": 0.11874272409778813
+    },
+    "Sweets and Pastries": {
+      "support": 140,
+      "tp": 69,
+      "fp": 89,
+      "fn": 71,
+      "precision": 0.43670886075949367,
+      "recall": 0.4928571428571429,
+      "f1": 0.4630872483221477
+    },
+    "Fast Food": {
+      "support": 91,
+      "tp": 0,
+      "fp": 0,
+      "fn": 91,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Others": {
+      "support": 18,
+      "tp": 8,
+      "fp": 46,
+      "fn": 10,
+      "precision": 0.14814814814814814,
+      "recall": 0.4444444444444444,
+      "f1": 0.2222222222222222
+    }
+  },
+  "subcategory": {
+    "Alcoholic Beverages": {
+      "support": 120,
+      "tp": 72,
+      "fp": 950,
+      "fn": 48,
+      "precision": 0.07045009784735812,
+      "recall": 0.6,
+      "f1": 0.12609457092819615
+    },
+    "Asturian Fabada": {
+      "support": 4,
+      "tp": 0,
+      "fp": 29,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Avocado/Fatty Fruits": {
+      "support": 50,
+      "tp": 0,
+      "fp": 11,
+      "fn": 50,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Battered and Fried Foods": {
+      "support": 19,
+      "tp": 0,
+      "fp": 0,
+      "fn": 19,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Biscuits": {
+      "support": 126,
+      "tp": 3,
+      "fp": 878,
+      "fn": 123,
+      "precision": 0.00340522133938706,
+      "recall": 0.023809523809523808,
+      "f1": 0.005958291956305858
+    },
+    "Bread": {
+      "support": 548,
+      "tp": 0,
+      "fp": 0,
+      "fn": 548,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Breakfast Cereals": {
+      "support": 76,
+      "tp": 0,
+      "fp": 0,
+      "fn": 76,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Burgers": {
+      "support": 8,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Candies": {
+      "support": 5,
+      "tp": 2,
+      "fp": 156,
+      "fn": 3,
+      "precision": 0.012658227848101266,
+      "recall": 0.4,
+      "f1": 0.024539877300613494
+    },
+    "Cheeses": {
+      "support": 161,
+      "tp": 5,
+      "fp": 329,
+      "fn": 156,
+      "precision": 0.014970059880239521,
+      "recall": 0.031055900621118012,
+      "f1": 0.020202020202020204
+    },
+    "Chocolates and Pralines": {
+      "support": 47,
+      "tp": 0,
+      "fp": 0,
+      "fn": 47,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Creams": {
+      "support": 4,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Croquettes": {
+      "support": 5,
+      "tp": 0,
+      "fp": 0,
+      "fn": 5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Cured Meats and Cold Cuts": {
+      "support": 244,
+      "tp": 72,
+      "fp": 1056,
+      "fn": 172,
+      "precision": 0.06382978723404255,
+      "recall": 0.29508196721311475,
+      "f1": 0.10495626822157433
+    },
+    "Eggs": {
+      "support": 136,
+      "tp": 0,
+      "fp": 0,
+      "fn": 136,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Fats (Butter and Others)": {
+      "support": 13,
+      "tp": 0,
+      "fp": 0,
+      "fn": 13,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Fish": {
+      "support": 237,
+      "tp": 0,
+      "fp": 0,
+      "fn": 237,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Fried or Salted Nuts": {
+      "support": 22,
+      "tp": 17,
+      "fp": 658,
+      "fn": 5,
+      "precision": 0.025185185185185185,
+      "recall": 0.7727272727272727,
+      "f1": 0.04878048780487805
+    },
+    "Fruits": {
+      "support": 1006,
+      "tp": 873,
+      "fp": 2322,
+      "fn": 133,
+      "precision": 0.27323943661971833,
+      "recall": 0.8677932405566601,
+      "f1": 0.41561532968340875
+    },
+    "Gazpacho/Salmorejo": {
+      "support": 76,
+      "tp": 0,
+      "fp": 0,
+      "fn": 76,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Infusions (Coffee and Others)": {
+      "support": 545,
+      "tp": 0,
+      "fp": 0,
+      "fn": 545,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Jelly": {
+      "support": 4,
+      "tp": 0,
+      "fp": 54,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Juices": {
+      "support": 68,
+      "tp": 0,
+      "fp": 0,
+      "fn": 68,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Kebab": {
+      "support": 1,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Legumes": {
+      "support": 93,
+      "tp": 0,
+      "fp": 0,
+      "fn": 93,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Lentil Stew": {
+      "support": 10,
+      "tp": 0,
+      "fp": 0,
+      "fn": 10,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Milk and Plant-Based Drinks": {
+      "support": 211,
+      "tp": 0,
+      "fp": 0,
+      "fn": 211,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Mushrooms": {
+      "support": 31,
+      "tp": 0,
+      "fp": 0,
+      "fn": 31,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Nutritional Supplements": {
+      "support": 14,
+      "tp": 0,
+      "fp": 0,
+      "fn": 14,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Offal": {
+      "support": 3,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Olive Oil": {
+      "support": 114,
+      "tp": 0,
+      "fp": 0,
+      "fn": 114,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Olives": {
+      "support": 47,
+      "tp": 0,
+      "fp": 0,
+      "fn": 47,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Other Cereals (Quinoa and Others)": {
+      "support": 103,
+      "tp": 0,
+      "fp": 0,
+      "fn": 103,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Other Meats": {
+      "support": 268,
+      "tp": 0,
+      "fp": 0,
+      "fn": 268,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Paella": {
+      "support": 9,
+      "tp": 0,
+      "fp": 0,
+      "fn": 9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Pasta": {
+      "support": 98,
+      "tp": 0,
+      "fp": 0,
+      "fn": 98,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Pastries and Baked Goods": {
+      "support": 59,
+      "tp": 0,
+      "fp": 0,
+      "fn": 59,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Pizzas": {
+      "support": 25,
+      "tp": 0,
+      "fp": 0,
+      "fn": 25,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Potatoes": {
+      "support": 131,
+      "tp": 0,
+      "fp": 0,
+      "fn": 131,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Poultry": {
+      "support": 157,
+      "tp": 0,
+      "fp": 0,
+      "fn": 157,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Processed Dairy": {
+      "support": 173,
+      "tp": 0,
+      "fp": 0,
+      "fn": 173,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Processed Fish": {
+      "support": 17,
+      "tp": 0,
+      "fp": 0,
+      "fn": 17,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Processed Fruits": {
+      "support": 12,
+      "tp": 0,
+      "fp": 0,
+      "fn": 12,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Pur\u00e9es and Creams": {
+      "support": 77,
+      "tp": 0,
+      "fp": 0,
+      "fn": 77,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "P\u00e2t\u00e9s": {
+      "support": 6,
+      "tp": 0,
+      "fp": 0,
+      "fn": 6,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Raw or Roasted Nuts": {
+      "support": 104,
+      "tp": 0,
+      "fp": 0,
+      "fn": 104,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Raw or Roasted Seeds": {
+      "support": 9,
+      "tp": 0,
+      "fp": 0,
+      "fn": 9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Rice": {
+      "support": 57,
+      "tp": 0,
+      "fp": 0,
+      "fn": 57,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Russian Salad": {
+      "support": 15,
+      "tp": 0,
+      "fp": 0,
+      "fn": 15,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Sandwiches": {
+      "support": 38,
+      "tp": 0,
+      "fp": 0,
+      "fn": 38,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Sauces and Condiments": {
+      "support": 82,
+      "tp": 0,
+      "fp": 0,
+      "fn": 82,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Seafood": {
+      "support": 71,
+      "tp": 0,
+      "fp": 0,
+      "fn": 71,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Sliced Bread": {
+      "support": 82,
+      "tp": 0,
+      "fp": 0,
+      "fn": 82,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Soft Drinks": {
+      "support": 141,
+      "tp": 0,
+      "fp": 0,
+      "fn": 141,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Soup": {
+      "support": 42,
+      "tp": 0,
+      "fp": 0,
+      "fn": 42,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Spanish Omelette": {
+      "support": 25,
+      "tp": 0,
+      "fp": 0,
+      "fn": 25,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Spanish Ratatouille (Pisto)": {
+      "support": 9,
+      "tp": 0,
+      "fp": 0,
+      "fn": 9,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Spanish Stew (Cocido)": {
+      "support": 6,
+      "tp": 0,
+      "fp": 0,
+      "fn": 6,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Sugary Dairy Shakes": {
+      "support": 13,
+      "tp": 0,
+      "fp": 0,
+      "fn": 13,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Sweet Spreads": {
+      "support": 29,
+      "tp": 0,
+      "fp": 0,
+      "fn": 29,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Uncategorized": {
+      "support": 3,
+      "tp": 0,
+      "fp": 0,
+      "fn": 3,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Vegetables and Greens": {
+      "support": 966,
+      "tp": 0,
+      "fp": 0,
+      "fn": 966,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Water": {
+      "support": 266,
+      "tp": 0,
+      "fp": 0,
+      "fn": 266,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Whole Grains": {
+      "support": 74,
+      "tp": 0,
+      "fp": 0,
+      "fn": 74,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Yogurt and Fresh Cheese": {
+      "support": 272,
+      "tp": 0,
+      "fp": 0,
+      "fn": 272,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  "cooking_style": {
+    "Boiled or Steamed": {
+      "support": 776,
+      "tp": 167,
+      "fp": 961,
+      "fn": 609,
+      "precision": 0.14804964539007093,
+      "recall": 0.21520618556701032,
+      "f1": 0.1754201680672269
+    },
+    "Fermented": {
+      "support": 375,
+      "tp": 69,
+      "fp": 953,
+      "fn": 306,
+      "precision": 0.0675146771037182,
+      "recall": 0.184,
+      "f1": 0.09878310665712238
+    },
+    "Fresh": {
+      "support": 2158,
+      "tp": 1429,
+      "fp": 1777,
+      "fn": 729,
+      "precision": 0.4457267623206488,
+      "recall": 0.6621872103799815,
+      "f1": 0.5328113348247577
+    },
+    "Fried": {
+      "support": 217,
+      "tp": 0,
+      "fp": 0,
+      "fn": 217,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Grilled": {
+      "support": 568,
+      "tp": 0,
+      "fp": 0,
+      "fn": 568,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Oven-Baked": {
+      "support": 734,
+      "tp": 162,
+      "fp": 719,
+      "fn": 572,
+      "precision": 0.18388195232690124,
+      "recall": 0.22070844686648503,
+      "f1": 0.20061919504643963
+    },
+    "Preserved (Canned or Jarred)": {
+      "support": 218,
+      "tp": 0,
+      "fp": 0,
+      "fn": 218,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Stewed": {
+      "support": 151,
+      "tp": 0,
+      "fp": 29,
+      "fn": 151,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "nan": {
+      "support": 2290,
+      "tp": 522,
+      "fp": 699,
+      "fn": 1768,
+      "precision": 0.4275184275184275,
+      "recall": 0.2279475982532751,
+      "f1": 0.2973511819994303
+    }
+  }
+}

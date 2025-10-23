@@ -1,0 +1,66 @@
+label,support,tp,fp,fn,precision,recall,f1
+Alcoholic Beverages,120,72,950,48,0.07045009784735812,0.6,0.12609457092819615
+Asturian Fabada,4,0,29,4,0.0,0.0,0.0
+Avocado/Fatty Fruits,50,0,11,50,0.0,0.0,0.0
+Battered and Fried Foods,19,0,0,19,0.0,0.0,0.0
+Biscuits,126,3,878,123,0.00340522133938706,0.023809523809523808,0.005958291956305858
+Bread,548,0,0,548,0.0,0.0,0.0
+Breakfast Cereals,76,0,0,76,0.0,0.0,0.0
+Burgers,8,0,0,8,0.0,0.0,0.0
+Candies,5,2,156,3,0.012658227848101266,0.4,0.024539877300613494
+Cheeses,161,5,329,156,0.014970059880239521,0.031055900621118012,0.020202020202020204
+Chocolates and Pralines,47,0,0,47,0.0,0.0,0.0
+Creams,4,0,0,4,0.0,0.0,0.0
+Croquettes,5,0,0,5,0.0,0.0,0.0
+Cured Meats and Cold Cuts,244,72,1056,172,0.06382978723404255,0.29508196721311475,0.10495626822157433
+Eggs,136,0,0,136,0.0,0.0,0.0
+Fats (Butter and Others),13,0,0,13,0.0,0.0,0.0
+Fish,237,0,0,237,0.0,0.0,0.0
+Fried or Salted Nuts,22,17,658,5,0.025185185185185185,0.7727272727272727,0.04878048780487805
+Fruits,1006,873,2322,133,0.27323943661971833,0.8677932405566601,0.41561532968340875
+Gazpacho/Salmorejo,76,0,0,76,0.0,0.0,0.0
+Infusions (Coffee and Others),545,0,0,545,0.0,0.0,0.0
+Jelly,4,0,54,4,0.0,0.0,0.0
+Juices,68,0,0,68,0.0,0.0,0.0
+Kebab,1,0,0,1,0.0,0.0,0.0
+Legumes,93,0,0,93,0.0,0.0,0.0
+Lentil Stew,10,0,0,10,0.0,0.0,0.0
+Milk and Plant-Based Drinks,211,0,0,211,0.0,0.0,0.0
+Mushrooms,31,0,0,31,0.0,0.0,0.0
+Nutritional Supplements,14,0,0,14,0.0,0.0,0.0
+Offal,3,0,0,3,0.0,0.0,0.0
+Olive Oil,114,0,0,114,0.0,0.0,0.0
+Olives,47,0,0,47,0.0,0.0,0.0
+Other Cereals (Quinoa and Others),103,0,0,103,0.0,0.0,0.0
+Other Meats,268,0,0,268,0.0,0.0,0.0
+Paella,9,0,0,9,0.0,0.0,0.0
+Pasta,98,0,0,98,0.0,0.0,0.0
+Pastries and Baked Goods,59,0,0,59,0.0,0.0,0.0
+Pizzas,25,0,0,25,0.0,0.0,0.0
+Potatoes,131,0,0,131,0.0,0.0,0.0
+Poultry,157,0,0,157,0.0,0.0,0.0
+Processed Dairy,173,0,0,173,0.0,0.0,0.0
+Processed Fish,17,0,0,17,0.0,0.0,0.0
+Processed Fruits,12,0,0,12,0.0,0.0,0.0
+Purées and Creams,77,0,0,77,0.0,0.0,0.0
+Pâtés,6,0,0,6,0.0,0.0,0.0
+Raw or Roasted Nuts,104,0,0,104,0.0,0.0,0.0
+Raw or Roasted Seeds,9,0,0,9,0.0,0.0,0.0
+Rice,57,0,0,57,0.0,0.0,0.0
+Russian Salad,15,0,0,15,0.0,0.0,0.0
+Sandwiches,38,0,0,38,0.0,0.0,0.0
+Sauces and Condiments,82,0,0,82,0.0,0.0,0.0
+Seafood,71,0,0,71,0.0,0.0,0.0
+Sliced Bread,82,0,0,82,0.0,0.0,0.0
+Soft Drinks,141,0,0,141,0.0,0.0,0.0
+Soup,42,0,0,42,0.0,0.0,0.0
+Spanish Omelette,25,0,0,25,0.0,0.0,0.0
+Spanish Ratatouille (Pisto),9,0,0,9,0.0,0.0,0.0
+Spanish Stew (Cocido),6,0,0,6,0.0,0.0,0.0
+Sugary Dairy Shakes,13,0,0,13,0.0,0.0,0.0
+Sweet Spreads,29,0,0,29,0.0,0.0,0.0
+Uncategorized,3,0,0,3,0.0,0.0,0.0
+Vegetables and Greens,966,0,0,966,0.0,0.0,0.0
+Water,266,0,0,266,0.0,0.0,0.0
+Whole Grains,74,0,0,74,0.0,0.0,0.0
+Yogurt and Fresh Cheese,272,0,0,272,0.0,0.0,0.0

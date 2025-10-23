@@ -1,0 +1,30 @@
+{
+  "categories": {
+    "subset_accuracy": 0.49378923467343394,
+    "precision_micro": 0.49378923467343394,
+    "recall_micro": 0.49378923467343394,
+    "f1_micro": 0.49378923467343394,
+    "precision_macro": 0.3332994521874536,
+    "recall_macro": 0.3385890190028349,
+    "f1_macro": 0.3087241856290713
+  },
+  "subcategory": {
+    "accuracy": 0.1394416989448377,
+    "precision_micro": 0.1394416989448377,
+    "recall_micro": 0.1394416989448377,
+    "f1_micro": 0.1394416989448377,
+    "precision_macro": 0.007134431014677416,
+    "recall_macro": 0.04600719853734906,
+    "f1_macro": 0.011479182247646106
+  },
+  "cooking_style": {
+    "accuracy": 0.31374382262588485,
+    "precision_micro": 0.31374382262588485,
+    "recall_micro": 0.31374382262588485,
+    "f1_micro": 0.31374382262588485,
+    "precision_macro": 0.1414101627399741,
+    "recall_macro": 0.1677832712296391,
+    "f1_macro": 0.1449983318438863
+  },
+  "exact_match_all_three": 0.12982503005209028
+}
